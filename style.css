@@ -1,0 +1,60 @@
+body {
+	background: white;
+}
+.title {
+	background-color: #4aacc5;
+	width: 100%
+	height: 25%;
+  padding: 5px;
+  padding-left: 35px;
+}
+div.title {
+  color: white;
+}
+.main {
+  display: flex;
+  flex-direction: row
+  width: 100%;
+  height: 25%;
+  justify-content: space-between;
+
+}
+.left {
+  background-color: #d9d9d9;
+  width: 20%;
+  height: 500px;
+  margin-top: 20px;
+  padding: 50px;
+  text-align: center;
+}
+.middle {
+  background-color: #d9d9d9;
+  width: 40%;
+  height: 500px;
+  margin-top: 20px;
+  padding: 50px;
+  text-align: center;
+  float: left;
+}
+.right {
+  background-color: #d9d9d9;
+  width: 20%;
+  height: 500px;
+  margin-top: 20px;
+  padding: 50px;
+  text-align: center;
+  float: right;
+}
+@media screen and (max-width: 750px) {
+  .right {
+  display: none;
+  }
+}
+@media screen and (max-width: 360px) {
+  .right {
+  display: none;
+  }
+  .left {
+  display: none;
+  }
+}
