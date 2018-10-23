@@ -45,12 +45,12 @@ div.title {
   text-align: center;
   float: right;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .right {
   display: none;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 576px) {
   .right {
   display: none;
   }
